@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body>
+  <!-- Navigation bar -->
+  <nav
+    class="navbar container-fluid navbar-expand-lg bg-body-tertiary hstack gap-3 p-sm-0 shadow-sm p-3 mb-5 sticky-top header-text">
+    <div class="container-fluid bg-white d-flex py-2 d-sm-flex">
+      <a class="navbar-brand ps-3" href="#">
+        <img src="Images/Logo.png" alt="" style="height: 20px;"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse header-text" id="navbarSupportedContent">
+        <ul class="navbar-nav justify-content-evenly mb-2 mb-lg-0 text-center ms-auto md-bg-white p-2 header-text">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Testimonials</a>
+          </li>
+        </ul>
+        <form
+          class="d-flex sm-flex-column align-items-center gap-2 md-justify-content-center justify-content-sm-center ms-auto flex-md-row sm-align-items-center md-align-items-center"
+          role="contact">
+          <button class=" btn-form" type="submit">Contact Me</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- Nanbar End -->
+
+  <!-- Hero Section Start -->
+  <div class="card mb-3 border-0 p-5 ">
+    <div class="row g-0">
+      <div class="col-md-6">
+        <div class="card-body">
+          <p class="card-text2 fw-bold">Hey, I am John</p>
+          <h1 class="card-title">I create <span>product design</span> and brand experience</h1>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Suspendisse varius enim in
+            eros
+            elementum tristique.</p>
+          <button class="hero-btn ">Get in Touch</button>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img src="Images/Main.png" class="img-fluid rounded-start" alt="...">
+      </div>
+    </div>
+  </div>
+  <!-- Hero Section End -->
+
+  <!-- Second Section -->
+  <div class="p-5">
+    <p>My Skills</p>
+    <h1>My Expertise</h1>
+  </div>
+  <div class="container">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+      <div class="col-3">
+        <img src="Images/Strategy & Direction.png" alt="" style="height: 80px;">
+        <h5>Strategy & Direction</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+      </div>
+      <div class="col-3">
+        <img src="Images/Branding.png" alt="" style="height: 40px;" class="mb-5">
+        <h5>Branding & Logo</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+      </div>
+      <div class="col-3">
+        <img src="Images/Ui Ux.png" alt="" style="height: 40px;" class="mb-5">
+        <h5>UI & UX Design</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+      </div>
+      <div class="col-3">
+        <img src="Images/Webflow Development.png" alt="" style="height: 80px;">
+        <h5>Webflow Development</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="bootstrap.js"></script>
+</body>
+
+</html>
