@@ -34,8 +34,9 @@ body{
     font-size: 14px;
 }
 p{
-    color:#5E3BEE;
+    color: #1C1E53;
     line-height: 25px;
+    /* word-wrap: break-word; */
 }
 .card-text2{
     color: #282938;
@@ -50,4 +51,17 @@ span{
     color: #5E3BEE;
     font-size: 50px;
     font-weight: 700;
+}
+.card-short-heading{
+    color: #282938 !important;
+    font-size: 20px !important;
+    font-weight: 700;
+}
+.card-text-mini{
+    font-size: 12px;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 576px){
+
 }
