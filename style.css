@@ -60,6 +60,24 @@ span{
 .card-text-mini{
     font-size: 12px;
 }
+.aboutme-card{
+    padding-top: 180px !important;
+    padding-left: 0 !important;
+}
+.hero-bg{
+    background-color: #F5FCFF;
+}
+.card-group{
+    gap: 50px;
+}
+.card{
+    outline: none;
+    border: 1px solid #006B6A !important;
+    border-radius: 5px !important;
+}
+.card-end-part{
+    margin-bottom: 10px !important;
+}
 
 
 @media screen and (min-width: 0px) and (max-width: 576px){
