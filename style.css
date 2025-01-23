@@ -14,8 +14,8 @@ body{
     height: 40px;
     width: 100px;
     border-radius: 4px;
-    background-color: white;
-    color: #5E3BEE;
+    background-color: #5E3BEE;
+    color: white;
     border-color: #5E3BEE
 }
 .btn-form:hover{
@@ -47,7 +47,7 @@ p{
     font-weight: 700;
     line-height: 70px;
 }
-span{
+.span-hero{
     color: #5E3BEE;
     font-size: 50px;
     font-weight: 700;
@@ -65,12 +65,12 @@ span{
     padding-left: 0 !important;
 }
 .hero-bg{
-    background-color: #F5FCFF;
+    background-color:#F5FCFF;
 }
 .card-group{
     gap: 50px;
 }
-.card{
+.card-border{
     outline: none;
     border: 1px solid #006B6A !important;
     border-radius: 5px !important;
@@ -78,11 +78,57 @@ span{
 .card-end-part{
     margin-bottom: 10px !important;
 }
-.form-sec{
-    
+.footer-bg{
+    background-color: #F5FCFF;
 }
-
-
+form{
+    text-align: justify;
+    align-content: center !important;
+}
+footer li{
+    list-style: none;
+    color: #282938;
+}
+footer ul{
+    color: #282938;
+}
+footer a{
+    text-decoration: none;
+    color: #282938;
+}
+a{
+    color: #282938;
+}
+hr{
+   border: 10px solid #000000;
+}
+.footer-link a{
+    color: #282938;
+}
 @media screen and (min-width: 0px) and (max-width: 576px){
-
+    .footer-name{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-link{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 70px;
+        margin-right: 400px;
+    }
+    .footer-list{
+        flex-direction: column;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .footer-icons{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 70px;
+        margin-left: -1500px;
+    }
+    #footer-sec{
+        flex-direction: column;
+        text-align: center;
+    }
 }
