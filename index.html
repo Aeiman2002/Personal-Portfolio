@@ -49,7 +49,7 @@
   <div class="p-4 pt-0 md-py-0 ">
     <div class="card mb-3 sm-mb-0 border-0">
       <div class="row g-0 hero-bg">
-        <div class="col-6">
+        <div class="col-md-6 md-text-center">
           <div class="card-body">
             <p class="card-text2 fw-bold">Hey, I am John</p>
             <h1 class="card-title">I create <span>product design</span> and brand experience</h1>
@@ -60,7 +60,7 @@
             <button class="hero-btn ">Get in Touch</button>
           </div>
         </div>
-        <div class="col-6" style="height: 510px;">
+        <div class="col-md-6 md-text-center" style="height: 510px;">
           <img src="Images/main.png" class="img-fluid rounded-start" alt="..." style="width: 600px;">
         </div>
       </div>
@@ -106,13 +106,13 @@
   <!-- Second Section End -->
 
   <!-- About Me Start -->
-  <div class="card mb-3 p-5 border-0">
-    <div class="row g-0">
-      <div class="col-6">
+  <div class="card mb-3 p-5 border-0 ">
+    <div class="row g-0 row-md-cols-1">
+      <div class="col-6 row-md-cols-1">
         <img src="Images/About Me.png" class="img-fluid rounded-start" alt="..." style="height: 600px; width: 500px;">
       </div>
-      <div class="col-6 justify-content-end">
-        <div class="card-body aboutme-card">
+      <div class="col-6 row-md-cols-1 justify-content-end">
+        <div class="card-body aboutme-card ">
           <p class="card-text2 fw-bold">About</p>
           <h5 class="card-title">About Me</h5>
           <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius faucibus massa
@@ -127,7 +127,7 @@
   </div>
   <!-- About Me Start -->
 
-  <!-- Portfolio Section Start -->
+  <!-- Projects Section Start -->
   <div class="p-4 md-py-0">
     <div class="p-5 text-center">
       <h1>My Projects</h1>
@@ -168,7 +168,7 @@
       </div>
     </div>
   </div>
-  <!-- Portfolio Section End -->
+  <!-- Projects Section End -->
 
   <!-- Client Feedback Start -->
   <div class="p-4 md-py-0">
@@ -176,7 +176,7 @@
       <p>Clients Feedback</p>
       <h1>Customer testimonials</h1>
     </div>
-    <div class="card-group p-5">
+    <div class="row md-cols-1 card-group p-5">
       <div class="card p-3">
         <img src="Images/Stars.png" class="card-img-top ps-2" alt="..." style="width: 80px;">
         <div class="card-body">
@@ -220,30 +220,32 @@
   <!-- Client Feedback End -->
 
   <!-- Form Section Start -->
-   <div class="text-center">
+  <div class="text-center">
     <h6>Get In Touch</h6>
     <h1>Contact me</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-   </div>
-  <div class="row">
-    <div class="col">
-      <label for="inputAddress" class="form-label">First Name</label>
-      <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-    </div>
-    <div class="col">
-      <label for="inputAddress" class="form-label">Last Name</label>
-      <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-    </div>
-    <form class="row g-3">
-      <div class="col-md-6">
-        <label for="inputEmail4" class="form-label">Email</label>
-        <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <form class="row g-3 p-5">
+    <div class="row align-items-center form-sec">
+      <div class="row">
+        <div class="col">
+          <label for="text">First Name</label>
+          <input type="text" class="form-control" aria-label="First name">
+        </div>
+        <div class="col">
+          <label for="text">Last Name</label>
+          <input type="text" class="form-control" aria-label="Last name">
+        </div>
+      </div>
+      <div class="col">
+        <label for="text">Email Address</label>
+        <input type="text" class="form-control" aria-label="Email address">
       </div>
       <div class="col-md-6">
-        <label for="inputPassword4" class="form-label">Phone number</label>
-        <input type="number" class="form-control" id="inputPassword4">
+        <label for="number">Phone number</label>
+        <input type="number" class="form-control" aria-label="number">
       </div>
-      <div class="col-12">
+      <div class="col-md-6">
         <label for="inputState" class="form-label">State</label>
         <select id="inputState" class="form-select">
           <option selected>Choose...</option>
@@ -252,20 +254,24 @@
       </div>
       <div class="form-floating">
         <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-        <label for="floatingTextarea">Comments</label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-        <label class="form-check-label" for="flexCheckDefault">
-          Default checkbox
-        </label>
+        <label for="floatingTextarea">Type your message...</label>
       </div>
       <div class="col-12">
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            I accept the terms
+          </label>
+        </div>
       </div>
-    </form>
-  </div>
+      <div class="col-12">
+        <button type="submit" class=" hero-btn">Submit</button>
+      </div>
+    </div>
+  </form>
   <!-- Form Section End -->
+
+  
   <script src="bootstrap.js"></script>
 </body>
 
