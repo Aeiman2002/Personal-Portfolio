@@ -3,9 +3,31 @@
     src: url(Fonts/static/Roboto-Regular.ttf);
 }
 
-body{
+*{
     box-sizing: border-box;
     font-family: roboto;
+}
+.home-link li a{
+    color: #5E3BEE !important;
+}
+.navbarbox-shadow{
+    box-shadow: 0px 5.33px 80px 0px rgba(0, 0, 0, 0.1);
+
+
+}
+.nav-btn{
+    height: 40px;
+    width: 100px;
+    font-size: 12px !important;
+    border-radius: 4px;
+    background-color: #ffffff !important;
+    color: #5E3BEE !important;
+    border-color: #5E3BEE !important
+}
+.nav-btn:hover{
+    color: #fff !important;
+    background-color: #5E3BEE !important;
+    border-color: #5E3BEE !important;
 }
 .header-text a{
     color: #5E3BEE;
@@ -36,38 +58,48 @@ body{
 p{
     color: #1C1E53;
     line-height: 25px;
-    /* word-wrap: break-word; */
 }
-.card-text2{
-    color: #282938;
-}
+
 .card-title{
     color: #282938;
     font-size: 50px;
     font-weight: 700;
     line-height: 70px;
 }
+.border-skill{
+    border-bottom: 3px solid #5E3BEE !important;
+    border-radius: 5px;
+}
 .span-hero{
     color: #5E3BEE;
-    font-size: 50px;
     font-weight: 700;
 }
-.card-short-heading{
-    color: #282938 !important;
-    font-size: 20px !important;
-    font-weight: 700;
-}
-.card-text-mini{
-    font-size: 12px;
-}
-.aboutme-card{
-    padding-top: 180px !important;
-    padding-left: 0 !important;
-}
+
 .hero-bg{
     background-color:#F5FCFF;
 }
-.card-group{
+.project-border{
+    border-bottom: 2px solid #5E3BEE;
+}
+.project-end-part p{
+    font-size: 12px;
+    
+}
+.card{
+    border: 1px solid #006B6A !important;
+}
+span{
+    font-size: 12px;
+}
+.project-heading{
+    padding-top: 12px;
+    line-height: 5px;
+}
+.footer-bg{
+    background-color: #F5FCFF;
+}
+
+/* .card-group{
     gap: 50px;
 }
 .card-border{
@@ -104,8 +136,20 @@ hr{
 }
 .footer-link a{
     color: #282938;
-}
-@media screen and (min-width: 0px) and (max-width: 576px){
+} */
+ /* .card-short-heading{
+    color: #282938 !important;
+    font-size: 20px !important;
+    font-weight: 700;
+} */
+/* .card-text-mini{
+    font-size: 12px;
+} */
+/* .aboutme-card{
+    padding-top: 180px !important;
+    padding-left: 0 !important;
+} */
+/* @media screen and (min-width: 0px) and (max-width: 576px){
     .footer-name{
         flex-direction: column;
         text-align: center;
@@ -131,4 +175,4 @@ hr{
         flex-direction: column;
         text-align: center;
     }
-}
+} */
