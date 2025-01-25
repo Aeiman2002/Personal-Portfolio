@@ -12,8 +12,6 @@
 }
 .navbarbox-shadow{
     box-shadow: 0px 5.33px 80px 0px rgba(0, 0, 0, 0.1);
-
-
 }
 .nav-btn{
     height: 40px;
@@ -98,81 +96,6 @@ span{
 .footer-bg{
     background-color: #F5FCFF;
 }
-
-/* .card-group{
-    gap: 50px;
+.footer-border{
+    border-bottom: 1px solid #4e4e4e;
 }
-.card-border{
-    outline: none;
-    border: 1px solid #006B6A !important;
-    border-radius: 5px !important;
-}
-.card-end-part{
-    margin-bottom: 10px !important;
-}
-.footer-bg{
-    background-color: #F5FCFF;
-}
-form{
-    text-align: justify;
-    align-content: center !important;
-}
-footer li{
-    list-style: none;
-    color: #282938;
-}
-footer ul{
-    color: #282938;
-}
-footer a{
-    text-decoration: none;
-    color: #282938;
-}
-a{
-    color: #282938;
-}
-hr{
-   border: 10px solid #000000;
-}
-.footer-link a{
-    color: #282938;
-} */
- /* .card-short-heading{
-    color: #282938 !important;
-    font-size: 20px !important;
-    font-weight: 700;
-} */
-/* .card-text-mini{
-    font-size: 12px;
-} */
-/* .aboutme-card{
-    padding-top: 180px !important;
-    padding-left: 0 !important;
-} */
-/* @media screen and (min-width: 0px) and (max-width: 576px){
-    .footer-name{
-        flex-direction: column;
-        text-align: center;
-    }
-    .footer-link{
-        flex-direction: column;
-        text-align: center;
-        margin-top: 70px;
-        margin-right: 400px;
-    }
-    .footer-list{
-        flex-direction: column;
-        text-align: center;
-        padding-top: 50px;
-    }
-    .footer-icons{
-        flex-direction: column;
-        align-items: center;
-        margin-top: 70px;
-        margin-left: -1500px;
-    }
-    #footer-sec{
-        flex-direction: column;
-        text-align: center;
-    }
-} */
